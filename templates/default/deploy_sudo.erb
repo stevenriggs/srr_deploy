@@ -1,0 +1,6 @@
+# This file is managed by Chef.
+# Do NOT modify this file directly.
+
+#Allow <%= @user %> to run sudo commands via ssh
+Defaults:<%= @user %> !requiretty
+Defaults:<%= @user %> visiblepw
